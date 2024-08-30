@@ -1,0 +1,120 @@
+
+.main_container{
+    display: flex;
+    background-color: #e0ddd1;
+    height: 100vh;
+    width: 100vw;
+   
+}
+.nav_bar_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+    width: 14.5vw;
+    background-color:white;
+    height: 100vh;
+    
+  
+}
+.tabs-list{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 0px;
+    
+}
+.input_content{
+    width: 150px;
+    height: 30px;
+    border-width: 0px;
+    text-align: start;
+    font-size: 15px;
+    margin-left: 40px;
+    color: #7b8794;
+    margin-top: 15px;
+    
+}
+.option{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    padding-left: 2px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-top: 15px;
+    text-align: start;
+    cursor: pointer;
+    text-align: start;
+    width: 150px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 95vh;
+}
+.top_content_heading{
+    display: flex;
+    align-items: flex-end;
+    background-color: #d1cbb8;
+    height: 5vh;
+    width: 85.5vw;
+}
+.heading-content{
+    display: flex;
+    height: 4.8vh;
+    width: 110px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 30px;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.heading{
+    font-size: 15px;
+    font-family: "roboto";
+    text-align: center;
+    color: #2563eb;
+}
+@media screen and (max-width: 768px) {
+    
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        
+    }
+    .top_content_heading{
+        display: flex;
+        align-items: flex-end;
+        background-color: #d1cbb8;
+        height: 5vh;
+        width: 100vw;
+    }
+    .main_container{
+        display: flex;
+        flex-direction: column;
+        background-color: #e0ddd1;
+        width: 100vw;
+        height: auto;
+       
+    }
+    .nav_bar_container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0px;
+        width: 100vw;
+        background-color:white;
+        height: 100vh;
+    }
+    
+    
+  }

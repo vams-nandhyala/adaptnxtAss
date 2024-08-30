@@ -1,0 +1,132 @@
+.graph_content{
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    height: 100vh;
+    justify-content:space-around;
+    align-items: center;
+}
+.line_chart_container{
+    display: flex;
+    background-color: white;
+    width: 50vw;
+    height: 85vh;
+    border-radius: 10px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 100vh;
+}
+.title_content{
+    display: flex;
+    flex-direction: row;
+    
+}
+.title{
+    color: #353837;
+    margin-left: 30px;
+    font-size: 15px;
+    height: 10px;
+    
+}
+.icon{
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.hr-line {
+    border: 0.5px solid #edf2f1;
+    width: 49.7vw;
+    margin-left: 0px;
+}
+.pie_chart_container{
+    display: flex;
+    background-color: white;
+    width: 30vw;
+    height: 85vh;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+
+.hr-line-pie {
+    border: 0.5px solid #edf2f1;
+    width: 29.5vw;
+    margin-left: 0px;
+    align-self: center;
+    
+}
+
+
+.graph{
+    display: flex;
+    justify-content: center;
+}
+.ident{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 15vw;
+    align-self: center;
+}
+.woo_conent{
+    background-color: #eb6649;
+    width:10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right:5px ;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+.name{
+    font-size: 10px;
+}
+.shopify_conent{
+    background-color:#19bd86;
+    width:10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right:5px ;
+}
+@media screen and (max-width: 768px) {
+    .graph_content{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .line_chart_container{
+        display: flex;
+        width: 95vw;
+        margin: 30px;
+        border-radius: 10px;
+        
+    }
+    .pie_chart_container{
+        width: 95vw;
+        margin: 30px;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    .hr-line {
+        width: 100vw;
+    }
+    .hr-line-pie {
+        width: 100vw;   
+    }
+    .ident{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 50vw;
+        align-self: center;
+    }
+  }
