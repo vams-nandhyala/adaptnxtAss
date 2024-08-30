@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adaptnxtAss/static/css/main.2217a85a.css",
+    "main.js": "/adaptnxtAss/static/js/main.74ed366a.js",
+    "static/js/453.d855a71b.chunk.js": "/adaptnxtAss/static/js/453.d855a71b.chunk.js",
+    "index.html": "/adaptnxtAss/index.html",
+    "main.2217a85a.css.map": "/adaptnxtAss/static/css/main.2217a85a.css.map",
+    "main.74ed366a.js.map": "/adaptnxtAss/static/js/main.74ed366a.js.map",
+    "453.d855a71b.chunk.js.map": "/adaptnxtAss/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2217a85a.css",
+    "static/js/main.74ed366a.js"
+  ]
+}
